@@ -1,0 +1,1 @@
+splitmatrix <-  function (M,nparts) split(M, rep(1:nparts, each = nrow(M)/nparts))

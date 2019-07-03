@@ -1,0 +1,1 @@
+makeSym <- function (x) (x + t(x))/2
