@@ -1,4 +1,4 @@
-0f3e8bdd836e30fc8f9cfc4e34299580 *DESCRIPTION
+51c037463b2469287aad13ef41d8417c *DESCRIPTION
 f12e7e7960b274366a7b4c09da005058 *NAMESPACE
 b5732f2640369b21f08a42a7178fcfaf *R/Estep.R
 65eb995aafa257ca58fe6fc9f4a974a8 *R/K_filter.R
@@ -51,6 +51,10 @@ e6a903786648e312203330d2da002dc6 *R/splitmatrix.R
 0f95f014402ab87bd4f9bb2c32e4c65f *R/summary.pnt.R
 b1416c7b867b1ab92efeef05c7642e85 *R/transform_model_data.R
 8f47763d54a061d41f880e4d94ad78d7 *R/transform_psychovar.R
+42efa8069b575eeab1987a9bbe4ce425 *data/MIR.RData
+5ce69828ab5a4d9e2a2545ff7bbea4f0 *data/MOOVD.RData
+d814412124e729bddac809042d7d4bed *man/MIR.Rd
+8551c40a8481f985f3441af54219b574 *man/MOOVD.Rd
 e2c63d0dcadc6b22d952d7d1840e014f *man/plot.pnt.Rd
 9fc75148c4f0f5ed9a308dac9d82ad95 *man/print.pnt.Rd
 ff42ef289333a7564a913a1baba17df2 *man/psychNET-package.Rd
