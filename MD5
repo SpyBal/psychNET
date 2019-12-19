@@ -1,4 +1,4 @@
-51c037463b2469287aad13ef41d8417c *DESCRIPTION
+7c681f02a969e971da972484a204cbc8 *DESCRIPTION
 f12e7e7960b274366a7b4c09da005058 *NAMESPACE
 b5732f2640369b21f08a42a7178fcfaf *R/Estep.R
 65eb995aafa257ca58fe6fc9f4a974a8 *R/K_filter.R
@@ -25,7 +25,7 @@ e16f95f01ceb7975b859fdce44310e62 *R/em_converged.R
 55d97670c3ca4c9d3a37240865f33736 *R/factorToVAR.R
 7f3981ee780b04de274badd04ca4639a *R/fix_data.R
 8b77aa77337b4c3f75ea3b282f0feedd *R/glmnetRequirements_psycho.R
-24f8f26fc17255e2b531372b4061b508 *R/impute_psychovar.R
+408b691017a65b885a724439017124cc *R/impute_psychovar.R
 406a136bf797832c24098ead276174e0 *R/lagData.R
 ae20a6910ccfe8e562b300596f5e6d2b *R/lag_data.R
 9c2ec7ebb861d6054296d25b3c415155 *R/longi_to_dataframe.R
@@ -51,7 +51,7 @@ e6a903786648e312203330d2da002dc6 *R/splitmatrix.R
 0f95f014402ab87bd4f9bb2c32e4c65f *R/summary.pnt.R
 b1416c7b867b1ab92efeef05c7642e85 *R/transform_model_data.R
 8f47763d54a061d41f880e4d94ad78d7 *R/transform_psychovar.R
-42efa8069b575eeab1987a9bbe4ce425 *data/MIR.RData
+d2ecdea2aef9efff3426c50765c5f189 *data/MIR.RData
 5ce69828ab5a4d9e2a2545ff7bbea4f0 *data/MOOVD.RData
 d814412124e729bddac809042d7d4bed *man/MIR.Rd
 8551c40a8481f985f3441af54219b574 *man/MOOVD.Rd
