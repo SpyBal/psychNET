@@ -2,10 +2,10 @@
 \alias{MOOVD}
 \docType{data}
 \title{
-Ordinal multivariate symptom time series from an individual in the Mood and Movement in Daily life (MOOVD) study.
+Multivariate symptom time series from an individual in the Mood and Movement in Daily life (MOOVD) study.
 }
 \description{
-Ordinal multivariate symptom time series from a depressed individual in the MOOVD study. The responses of the participant are recorded for 30 days, three times per day (one vector of responses obtained at each beep).
+Discrete valued multivariate symptom time series from a depressed individual in the MOOVD study. The responses of the participant are recorded for 30 days, three times per day (one vector of responses obtained at each beep).
 }
 \usage{data("MOOVD")}
 \format{
@@ -24,9 +24,9 @@ Ordinal multivariate symptom time series from a depressed individual in the MOOV
     \item{\code{Resteless}}{: ordered factor. "I feel self restless..." [1,7]}
     \item{\code{Irritated}}{: ordered factor. "I feel self irritated..." [1,7]}
     \item{\code{Content}}{: ordered factor. "I feel content..." [1,7]}
-    \item{\code{Cheerful}}{: ordered factor. "I feel cheerful..." [1,7]}
+    \item{\code{Happy}}{: ordered factor. "I feel cheerful..." [1,7]}
     \item{\code{Sad}}{: ordered factor. "I feel sad..." [1,7]}
-    \item{\code{Excited}}{: ordered factor. "I feel excited..." [1,7]}
+    \item{\code{Cheerful}}{: ordered factor. "I feel excited..." [1,7]}
     \item{\code{Guilty}}{: ordered factor. "I feel guilty..." [1,7]}
     \item{\code{Defeated}}{: ordered factor. "I feel defeated..." [1,7]}
     \item{\code{Tired}}{: ordered factor. "I feel tired..." [1,7]}
@@ -39,7 +39,7 @@ Ordinal multivariate symptom time series from a depressed individual in the MOOV
     \item{\code{Negative thoughts}}{: ordered factor. "Many negative thoughts go through my mind..." [1,7]}
     \item{\code{Concentrate}}{: ordered factor. "I am able to concentrate very well..." [1,7]}
     \item{\code{Slowed thoughts}}{: ordered factor. " My thoughts are slow..." [1,7]}
-    \item{\code{DAY}}{: numeric. Day index }
+    \item{\code{DAY}}{: numeric. Day variable }
     \item{\code{BEEP}}{: integer. Beep variable}
   }
 }

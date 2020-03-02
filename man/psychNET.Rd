@@ -177,7 +177,7 @@ sparse_VAR_model
 # summarize the resulting network
 summary(sparse_VAR_model)
 # plot the sparse VAR model results using the original plot method
-sparsevar::plotVAR(sparse_VAR_model$fit)
+psychNET:::plotVAR(sparse_VAR_model$fit)
 # plot the resulting network
 plot(sparse_VAR_model)
 
@@ -263,9 +263,6 @@ all.equal(dfmmod$R, psychdfm$results$Obs_Covariance, check.attributes = FALSE)
 ########### FIT A SPARSE VAR TO THE CANADA DATA FROM THE 'vars' PACKAGE  ############
 #####################################################################################
 
-## load the 'sparsevar' package
-library(sparsevar)
-
 ## Load the Canada dataset from the vars package
 data(Canada, package = "vars")
 
@@ -275,7 +272,7 @@ Canada_data_frame <- data.frame(Canada)
 
 ## fitting a SVAR using the sparsevar package
 set.seed(1)
-svarmod <- fitVAR(Canada, p = 1, penalty="SCAD", method="cv", logScale=FALSE)
+svarmod <- psychNET:::fitVAR(Canada, p = 1, penalty="SCAD", method="cv", logScale=FALSE)
 
 ## fitting the same SVAR using the psychNET package
 set.seed(1)

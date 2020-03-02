@@ -12,7 +12,6 @@ importFrom(utils, "setTxtProgressBar", "txtProgressBar", "combn")
 importFrom(MASS, "ginv", "polr")
 importFrom(glmnet, "glmnet", "cv.glmnet")
 importFrom(fastDummies, "dummy_cols")
-importFrom(sparsevar, "fitVAR", "fitVECM")
 import("vars", "bigtime", "igraph", "imputeTS", "Hmisc", "SparseTSCGM", "mlVAR", "qgraph", "graphicalVAR","crayon","mgm","longitudinal","networktools", "ordinalNet" )
 
 export(psychNET)

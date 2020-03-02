@@ -166,6 +166,7 @@ pre_fix_data <- function(x){
   }
   if (!is.null(x$CALL$pars$transform)){
     x$CALL$pars$TRANSFORM <- TRUE
+    equi_style <- silver $ bold $ italic $ underline
     message(equi_style(paste("\nTime series are transformed using:",x$CALL$pars$transform," .... \n")))
     data <- transform_psychovar(data, method=x$CALL$pars$transform)
   }
