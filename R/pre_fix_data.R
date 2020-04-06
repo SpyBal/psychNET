@@ -6,7 +6,7 @@ pre_fix_data <- function(x){
   cldata <- class(data)
   types <- c("data.frame", "matrix", "longitudinal")
   
-  if (!cldata %in% types) stop("The data class must be 'matrix', 'data.frame', 'longitudinal', or 'list' with entries the pre-mentioned data classes")
+  if (!any(cldata %in% types)) stop("The data class must be 'matrix', 'data.frame', 'longitudinal', or 'list' with entries the pre-mentioned data classes")
 
   VARnames <- colnames(data)
   ncolumns <- ncol(data)
@@ -14,7 +14,7 @@ pre_fix_data <- function(x){
   
   if (is.null(VARnames)) VARnames <- colnames(data) <- paste("V_",1:ncolumns,sep = "")
     
-  if (cldata %in% types[1:2]){
+  if (any(cldata %in% types[1:2])){
     data <- as.data.frame(data)
     ct <- grepl("^TIME$", toupper(VARnames))
     cd <- grepl("^DAY$", toupper(VARnames))
@@ -59,7 +59,7 @@ pre_fix_data <- function(x){
     
   } 
   
-  if (cldata == "longitudinal"){
+  if (any(cldata == "longitudinal")){
     data <- longi_to_dataframe(data)
     x$CALL$pars$TIME_index <- ncolumns + 2
     x$CALL$pars$TIME <- data[,x$CALL$pars$TIME_index]

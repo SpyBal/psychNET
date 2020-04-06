@@ -12,16 +12,18 @@ importFrom(utils, "setTxtProgressBar", "txtProgressBar", "combn")
 importFrom(MASS, "ginv", "polr")
 importFrom(glmnet, "glmnet", "cv.glmnet")
 importFrom(fastDummies, "dummy_cols")
-import("vars", "bigtime", "igraph", "imputeTS", "Hmisc", "SparseTSCGM", "mlVAR", "qgraph", "graphicalVAR","crayon","mgm","longitudinal","networktools", "ordinalNet" )
+importFrom(ncvreg, "ncvreg")
+importFrom(ncvreg, "ncvreg")
+importFrom(corpcor, "cov.shrink")
+
+
+import( "vars", "bigtime", "igraph", "imputeTS", "Hmisc", "SparseTSCGM", "mlVAR", "qgraph", "graphicalVAR","crayon", "mgm", "longitudinal","networktools", "ordinalNet", "parallel","doParallel","reshape2","picasso")
 
 export(psychNET)
 S3method( "summary", "pnt" )
 S3method( "plot",    "pnt" )
 S3method( "print",   "pnt" )
 
-export(psychNET)
-S3method( "summary", "pnt" )
-S3method( "plot",    "pnt" )
-S3method( "print",   "pnt" )
+
 
 

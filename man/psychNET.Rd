@@ -176,8 +176,6 @@ sparse_VAR_model <- psychNET(Canada_data_frame, model = "SVAR", lag = 1)
 sparse_VAR_model
 # summarize the resulting network
 summary(sparse_VAR_model)
-# plot the sparse VAR model results using the original plot method
-psychNET:::plotVAR(sparse_VAR_model$fit)
 # plot the resulting network
 plot(sparse_VAR_model)
 
@@ -193,9 +191,11 @@ plot(sparse_lassVAR_model)
 
 \donttest{
 ## Load the psychNET package
+
 library(psychNET)
-#################################### N=1 models ######################################
-######################################################################################
+
+################################## N=1 models ####################################
+##################################################################################
 
 
 ####################################################################
@@ -414,6 +414,7 @@ all.equal(mlvarmod$results, psychmlvar$fit$results)
 #######################################################################################
 
 ## load the 'SparseTSCGM' package
+
 library(SparseTSCGM)
 
 ## Simulate data:
